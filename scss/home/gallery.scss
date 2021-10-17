@@ -1,0 +1,45 @@
+.galleryWrapper {
+  margin: 0 auto;
+  padding-top: 130px;
+  margin-bottom: 250px;
+  width: 84%;
+  height: 513px;
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .leftImg {
+      width: 50%;
+      height: 187px;
+    }
+
+    .middleImg {
+      width: 20%;
+      height: 187px;
+    }
+
+    .rightImg {
+      width: 25%;
+      height: 187px;
+    }
+
+    .leftSecondImg {
+      width: 60%;
+      height: 306px;
+    }
+
+    .rightSecondImg {
+      width: 35%;
+      height: 306px;
+    }
+  }
+}

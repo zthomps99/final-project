@@ -1,0 +1,72 @@
+.spotlight {
+  margin: 0 auto;
+  padding-top: 130px;
+  margin-bottom: 150px;
+  width: 84%;
+  height: 850px;
+
+  .gallerySpot {
+    position: relative;
+    width: 100%;
+    height: 470px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+
+    h1 {
+      color: #ffd140;
+    }
+
+    .deejay {
+      color: #ee4367;
+    }
+
+    .speech {
+      color: #08ad69;
+    }
+
+    .foodfest {
+      color: #540d6e;
+    }
+
+    .international {
+      color: #3bceab;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .galleryHeader {
+      position: absolute;
+      margin-bottom: -80px;
+      left: 0;
+      bottom: 0;
+
+      h1 {
+        font-size: 140px;
+      }
+
+      span {
+        font-size: 300px;
+      }
+    }
+  }
+
+  .galleryDesc {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    margin-top: 50px;
+    font-style: italic;
+
+    .first {
+      width: 50%;
+    }
+
+    .second {
+      width: 40%;
+    }
+  }
+}
